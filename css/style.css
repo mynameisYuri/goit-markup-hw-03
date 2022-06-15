@@ -143,6 +143,10 @@ img {
     color: var(--hover_color);
 }
 
+.header_menu:focus {
+    color: var(--hover_color);
+}
+
 .header_mail {
     font-family: 'Roboto';
     font-style: normal;
@@ -250,10 +254,8 @@ img {
 /*----------------------------------------------------НАВЫКИ----------------------------------------------------*/
 
 .skills {
-    background-color: var(--third_background_page_color);
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
 
 .skills_box, .occupation_box {
@@ -285,7 +287,10 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--header_color_3);
-    margin-bottom: 94px;
+}
+
+.what_we_do {
+    padding-bottom: 94px;
 }
 
 .occupation {
@@ -401,7 +406,7 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: var(--header_font_size);
-    line-height: 2;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--first_background_page_color);
 }
@@ -411,8 +416,12 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: var(--header_font_size);
-    line-height: 2;
+    line-height: 1.71;
     letter-spacing: 0.03em;
+    color: var(--hover_color);
+}
+
+.footer_adress:focus {
     color: var(--hover_color);
 }
 
@@ -421,7 +430,7 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: var(--header_font_size);
-    line-height: 2;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(225, 225, 225, 0.6);
 }
@@ -431,7 +440,7 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: var(--header_font_size);
-    line-height: 2;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--hover_color);
 }
@@ -445,7 +454,7 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: var(--header_font_size);
-    line-height: 2;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(225, 225, 225, 0.6);
 }
@@ -455,7 +464,7 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: var(--header_font_size);
-    line-height: 2;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--hover_color);
 }
